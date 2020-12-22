@@ -1,0 +1,36 @@
+.sidebar {
+    height: 100%;
+   
+    background: #132e3f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    z-index: 200;
+}
+.sidebar-logo {
+    height: 40%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar ul {
+    height: 40%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar li {
+    margin-top: 1.5rem;
+    margin-left: 1.3rem;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+}
